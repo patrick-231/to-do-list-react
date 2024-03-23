@@ -1,13 +1,15 @@
-import Addtask from "./Components/Addtask"
+/* import Addtask from "./Components/Addtask"
 import Countitem from "./Components/Countitem"
-import Header from "./Components/Header"
+import Header from "./Components/Header" */
+import ToDoList from "./Components/ToDoList"
 
 function App() {
   return (
     <>
-      <Header />
+      {/* <Header />
       <Addtask />
-      <Countitem />
+      <Countitem /> */}
+      <ToDoList  />
     </>
   )
 }
