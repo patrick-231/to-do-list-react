@@ -1,0 +1,14 @@
+.checked {
+  position: relative;
+  text-decoration: line-through;
+}
+
+.checked::before {
+  position: absolute;
+  content: "\2713";
+  left: 15px;
+}
+
+.close-btn::before {
+  content: "\00D7";
+}
